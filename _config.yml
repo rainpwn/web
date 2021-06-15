@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Alessandro                          # the main title
 
-tagline:  🇮🇹 Rome, Italy 
+tagline:  🇮🇹 Rome, Italy            
           👨‍💻 Cyber Security Enthusiast & CTF Player   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
