@@ -1,6 +1,6 @@
 ---
 title: Text and Typography
-author: Cotes Chung
+author: Alessandro
 date: 2021-06-15 16:00:00 +0800
 categories: [HackTheBox]
 tags: [typography]
