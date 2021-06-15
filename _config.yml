@@ -17,7 +17,8 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Alessandro                          # the main title
 
-tagline: Cyber Security Enthusiast & CTF Player   # it will display as the sub-title
+tagline:  🇮🇹 Rome, Italy 
+          👨‍💻 Cyber Security Enthusiast & CTF Player   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
