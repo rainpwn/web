@@ -32,8 +32,8 @@ url: 'https://inside-shellshock.github.io'
 github:
   username: inside-shellshock             # change to your github username
 
-#twitter:
-  #username: twitter_username            # change to your twitter username
+hackthebox:
+  username: alessandr0.exe            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,7 +42,7 @@ social:
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/username      # change to your twitter homepage
+    - https://app.hackthebox.eu/profile/29537
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
