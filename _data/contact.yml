@@ -5,7 +5,7 @@
   icon: 'fab fa-github-alt'
 -
   type: hackthebox
-  icon: 'far fa-cube'
+  icon: 'https://app.hackthebox.eu/images/HTB-favicon/favicon.ico'
 -
   type: email
   icon: 'fas fa-envelope'
