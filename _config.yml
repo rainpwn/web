@@ -34,6 +34,9 @@ github:
 
 twitter:
   username: https://app.hackthebox.eu/profile/29537            # change to your twitter username
+  
+hackthebox:
+  username: https://app.hackthebox.eu/profile/29537
 
 social:
   # Change to your full name.
