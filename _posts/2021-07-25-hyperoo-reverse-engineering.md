@@ -102,7 +102,7 @@ internal void UpdateClientProperties()
 		this.ClientProperties.IsExpired = false;
 		base.ServiceVersion = new Version(this.ClientProperties.Version);
 		this.IsActivated = true;
-		MessageBox.Show("Cracked by Alessandro Sgreccia!");
+		MessageBox.Show("Cracked!");
 ```
 Rechiamoci poi in **Hyperoo.UI.ManagementStudio.ClientWindow**, cerchiamo la funzione **IsActivated** e modifichiamo il codice in:
 
@@ -160,5 +160,5 @@ Eseguendolo, il prodotto sarà attivato.
 
 
 *Reversed with ❤ By\
-Alessandro Sgreccia,\
+Alessandro,\
 Cyber Security Enthusiast*
