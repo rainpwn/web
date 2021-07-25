@@ -23,7 +23,7 @@ Importando l'eseguibile in dnSpy ci saltano subito all'occhio le varie classi de
 ![Desktop View](https://user-images.githubusercontent.com/13579382/126905365-41768180-d838-42b8-a9d6-ad16a537b84f.png)
 
 Dopo un pò di analisi delle varie classi, sotto **Hyperoo.UI.ManagementStudio** troviamo il metodo **ClientWindow** che contiene varie funzioni.
-La funzione che andremo a modificare sarà **UpdateClientProperties()**, questo perché dopo aver letto e compreso il codice di svariate funzioni tra cui **ActivateWithCloud()** vediamo questa viene chiamata per aggiornare licenza del programma.
+La funzione che andremo a modificare sarà **UpdateClientProperties()**, questo perché dopo aver letto e compreso il codice di svariate funzioni tra cui **ActivateWithCloud()** vediamo che questa viene chiamata per aggiornare licenza del programma.
 
 ### Patch del codice
 
