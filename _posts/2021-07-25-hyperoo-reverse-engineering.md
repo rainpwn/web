@@ -10,9 +10,7 @@ Tested on: **2.4.16**
 
 ---
 
-![Intro](https://user-images.githubusercontent.com/13579382/126905701-152b2539-924f-4a1f-8e30-3e85e12ebb3d.png)
-
-### Identificazione vulnerabilità
+### Analisi comportamento
 Aprendo Hyperoo ed effettuando la connessione al server, il main form ci mostra il banner di attivazione proponendo diversi tipi di attivazioni.
 Qualunque attivazione scegliamo finirà in errore, in quanto i server di Hyperoo sembrano dismessi e non più operativi per permettere al programma di validare la licenza.
 Sfogliando la cartella del programma, sembrerebbe non trattarsi di un PE, permettendoci quindi di effettuare la decompilazione del codice.
