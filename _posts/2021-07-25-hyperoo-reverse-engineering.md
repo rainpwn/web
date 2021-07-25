@@ -15,12 +15,12 @@ Aprendo Hyperoo ed effettuando la connessione al server, il main form ci mostra 
 Qualunque attivazione scegliamo finirà in errore, in quanto i server di Hyperoo sembrano dismessi e non più operativi per permettere al programma di validare la licenza.
 Sfogliando la cartella del programma, sembrerebbe non trattarsi di un PE, permettendoci quindi di effettuare la decompilazione del codice.
 
-![Desktop View](https://inside-shellshock.github.io/web/assets/img/favicon/1.png)
+![Desktop View](https://user-images.githubusercontent.com/13579382/126905362-ab6225e4-4ee1-4a75-9573-ce91b3883ccc.png)
 
 ### Decompilazione con dnSpy
 Importando l'eseguibile in dnSpy ci saltano subito all'occhio le varie classi del codice. :)
 
-![Desktop View](https://inside-shellshock.github.io/web/assets/img/favicon/2.png)
+![Desktop View](https://user-images.githubusercontent.com/13579382/126905365-41768180-d838-42b8-a9d6-ad16a537b84f.png)
 
 Dopo un pò di analisi delle varie classi, sotto **Hyperoo.UI.ManagementStudio** troviamo il metodo **ClientWindow** che contiene varie funzioni.
 La funzione che andremo a modificare sarà **UpdateClientProperties()**, questo perché dopo aver letto e compreso il codice di svariate funzioni tra cui **ActivateWithCloud()** vediamo questa viene chiamata per aggiornare licenza del programma.
@@ -151,9 +151,9 @@ public ClientWindow(IClientManagementService clientService, string sServerName)
 Assembliamo quindi l'eseguibile, andando a sovrascrivere l'originale.
 Eseguendolo, il prodotto sarà attivato.
 
-![Desktop View](https://inside-shellshock.github.io/web/assets/img/favicon/3.png)
+![Desktop View](https://user-images.githubusercontent.com/13579382/126905366-98d5e970-9ab5-4d44-bd36-9262728cff34.png)
 
-![Desktop View](https://inside-shellshock.github.io/web/assets/img/favicon/4.png)
+![Desktop View](https://user-images.githubusercontent.com/13579382/126905367-ae20a076-380d-492d-a8aa-d51a6c3a81f1.png)
 
 
 
